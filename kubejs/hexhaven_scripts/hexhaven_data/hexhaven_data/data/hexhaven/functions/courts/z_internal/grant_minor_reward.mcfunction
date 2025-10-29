@@ -1,0 +1,2 @@
+give @s kubejs:lunarcoin{display:{Name:'["",{"text":"Commemorative Commerce Coin","color":"gold","bold":true}]',Lore:['["",{"text":"This coin is a souvenir from the","italic":false,"color":"dark_purple"}]','["",{"text":"first Courts of Commerce Bundle","italic":false,"color":"dark_purple"}]','["",{"text":"Event. You completed 4/6 Bundles!","italic":false,"color":"dark_purple"}]']},Enchantments:[{}]}
+scoreboard players set @s hexhaven.courts.z_internal.minor_reward_granted 1

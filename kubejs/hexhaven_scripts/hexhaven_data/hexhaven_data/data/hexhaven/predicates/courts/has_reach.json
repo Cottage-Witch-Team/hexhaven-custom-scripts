@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "effects": {
+            "friendsandfoes:reach": {
+                "amplifier": {
+                    "min": 1
+                },
+                "duration": {
+                    "min": 72000
+                }
+            }
+        }
+    }
+}

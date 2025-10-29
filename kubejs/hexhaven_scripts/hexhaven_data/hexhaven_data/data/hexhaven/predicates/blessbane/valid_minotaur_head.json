@@ -1,0 +1,15 @@
+[
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "vehicle": {
+                "nbt": "{Tags: [\"hexhaven.blessbane.minotaur_body\"]}"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "hexhaven:blessbane/within_labyrinth"
+    }
+]

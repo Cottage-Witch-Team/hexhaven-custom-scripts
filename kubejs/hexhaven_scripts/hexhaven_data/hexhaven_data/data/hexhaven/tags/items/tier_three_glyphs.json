@@ -1,0 +1,22 @@
+{
+    "values": [
+        "ars_elemental:glyph_propagator_homing",
+        "ars_elemental:glyph_life_link",
+        "ars_elemental:glyph_homing_projectile",
+        "ars_nouveau:glyph_split",
+        "ars_nouveau:glyph_blink",
+        "ars_nouveau:glyph_glide",
+        "ars_nouveau:glyph_fangs",
+        "ars_nouveau:glyph_intangible",
+        "ars_nouveau:burst",
+        "ars_nouveau:glyph_summon_undead",
+        "ars_nouveau:glyph_summon_decoy",
+        "ars_nouveau:glyph_hex",
+        "ars_nouveau:glyph_wither",
+        "ars_nouveau:glyph_lightning",
+        "ars_nouveau:glyph_wall",
+        "ars_nouveau:glyph_summon_vex",
+        "ars_nouveau:glyph_orbit",
+        "ars_nouveau:glyph_linger"
+    ]
+}

@@ -1,0 +1,3 @@
+function hexhaven:blessbane/z_internal/submit_normal_gapples
+function hexhaven:blessbane/z_internal/submit_gapple_crates
+#function hexhaven:blessbane/z_internal/submit_enchanted_gapples

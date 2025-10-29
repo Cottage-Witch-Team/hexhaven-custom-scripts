@@ -1,0 +1,5 @@
+execute store success score ok hexhaven.blessbane.z_internal if score @s hexhaven.blessbane.scavenger_progress matches 6 run clear @s quark:golden_apple_crate{"hexhaven.blessbane.clue_item": 6}
+execute if score ok hexhaven.blessbane.z_internal matches 1 if score @s hexhaven.blessbane.scavenger_progress matches 6 run give @s minecraft:wooden_axe{ "hexhaven.blessbane.clue_item": 7, display: { Name: '{"text": "Clue #7", "italic": false}', Lore: ['{"text": "Where a tree isn\'t", "italic": false}'], } }
+execute if score ok hexhaven.blessbane.z_internal matches 1 if score @s hexhaven.blessbane.scavenger_progress matches 6 run title @s actionbar {"text": "She said something about a dead tree?"}
+execute if score ok hexhaven.blessbane.z_internal matches 1 if score @s hexhaven.blessbane.scavenger_progress matches 6 run playsound minecraft:entity.frog.hurt master @s
+execute if score ok hexhaven.blessbane.z_internal matches 1 if score @s hexhaven.blessbane.scavenger_progress matches 6 run scoreboard players add @s hexhaven.blessbane.scavenger_progress 1

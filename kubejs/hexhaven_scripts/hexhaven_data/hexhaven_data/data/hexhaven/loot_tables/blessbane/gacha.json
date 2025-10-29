@@ -1,0 +1,264 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "carved_pumpkin",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData: 2}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Cat Ears",
+                                "italic": false,
+                                "color": "yellow"
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "A pair of ears to make you cute.",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "carved_pumpkin",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData: 3}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Top Hat Friend",
+                                "italic": false,
+                                "color": "yellow"
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "A fancy piece of headware... with a resident.",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "carved_pumpkin",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData: 4}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Satyr Horns",
+                                "italic": false,
+                                "color": "yellow"
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Are you feeling horn-y baby?",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "carved_pumpkin",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData: 5}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Druid Horns",
+                                "italic": false,
+                                "color": "yellow"
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Be one with nature.",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "carved_pumpkin",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData: 6}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Elf Ears",
+                                "italic": false,
+                                "color": "yellow"
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Pointy ears club!",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "carved_pumpkin",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData: 7}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Goblin Ears",
+                                "italic": false,
+                                "color": "yellow"
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Special nice big earses just for us",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "carved_pumpkin",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData: 8}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Frog for Head",
+                                "italic": false,
+                                "color": "yellow"
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "He's just vibing.",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "kubejs:witch_cat_plushie",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "quark:golden_apple_crate",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "quark:golden_apple_crate",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 10
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "quark:golden_apple_crate",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 100
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "golden_apple",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "golden_apple",
+                    "weight": 20,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 10
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "golden_apple",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 100
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

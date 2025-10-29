@@ -1,0 +1,91 @@
+{
+	"criteria": {
+		"out_of_bounds_south": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"gamemode": "survival"
+					},
+					"location": {
+						"position": {
+							"z": {
+								"min": 15000,
+								"max": 30000000
+							}
+						}
+					}
+				}
+			}
+		},
+		"out_of_bounds_north": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"gamemode": "survival"
+					},
+					"location": {
+						"position": {
+							"z": {
+								"min": -30000000,
+								"max": -15000
+							}
+						}
+					}
+				}
+			}
+		},
+		"out_of_bounds_east": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"gamemode": "survival"
+					},
+					"location": {
+						"position": {
+							"x": {
+								"min": 15000,
+								"max": 30000000
+							}
+						}
+					}
+				}
+			}
+		},
+		"out_of_bounds_west": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"gamemode": "survival"
+					},
+					"location": {
+						"position": {
+							"x": {
+								"min": -30000000,
+								"max": -15000
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"out_of_bounds_south",
+			"out_of_bounds_north",
+			"out_of_bounds_east",
+			"out_of_bounds_west"
+		]
+	],
+	"rewards": {
+		"function": "hexhaven:z_internal/out_of_bounds"
+	}
+}

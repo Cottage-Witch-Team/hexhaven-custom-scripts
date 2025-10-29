@@ -1,0 +1,20 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "passenger": {
+        "nbt": "{Tags:[\"hexhaven.blessbane.minotaur_head\"]}"
+      },
+      "stepping_on": {
+        "block": {
+          "tag": "hexhaven:blessbane/minotaur_flooring"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "hexhaven:blessbane/within_labyrinth"
+  }
+]

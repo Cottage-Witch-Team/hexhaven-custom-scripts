@@ -1,0 +1,84 @@
+{
+	"criteria": {
+		"warn_south": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"gamemode": "survival"
+					},
+					"location": {
+						"position": {
+							"z": {
+								"min": 10230,
+								"max": 10239
+							}
+						}
+					}
+				}
+			}
+		},
+		"warn_north": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"gamemode": "survival"
+					},
+					"location": {
+						"position": {
+							"z": {
+								"min": -10239,
+								"max": -10230
+							}
+						}
+					}
+				}
+			}
+		},
+		"warn_east": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"gamemode": "survival"
+					},
+					"location": {
+						"position": {
+							"x": {
+								"min": 10230,
+								"max": 10239
+							}
+						}
+					}
+				}
+			}
+		},
+		"warn_west": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"gamemode": "survival"
+					},
+					"location": {
+						"position": {
+							"x": {
+								"min": -10239,
+								"max": -10230
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [["warn_south", "warn_north", "warn_east", "warn_west"]],
+	"rewards": {
+		"function": "hexhaven:z_internal/warn_outerlands"
+	}
+}

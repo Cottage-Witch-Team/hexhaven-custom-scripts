@@ -1,0 +1,5 @@
+execute store success score ok hexhaven.blessbane.z_internal if score @s hexhaven.blessbane.scavenger_progress matches 5 run clear @s alexsmobs:mungal_spores{"hexhaven.blessbane.clue_item": 5}
+execute if score ok hexhaven.blessbane.z_internal matches 1 if score @s hexhaven.blessbane.scavenger_progress matches 5 run give @s quark:golden_apple_crate{ "hexhaven.blessbane.clue_item": 6, display: { Name: '{"text": "Clue #6", "italic": false}', Lore: ['{"text": "Ask The Heart for advice", "italic": false}'], } }
+execute if score ok hexhaven.blessbane.z_internal matches 1 if score @s hexhaven.blessbane.scavenger_progress matches 5 run title @s actionbar {"text": "That clue was an Imposter."}
+execute if score ok hexhaven.blessbane.z_internal matches 1 if score @s hexhaven.blessbane.scavenger_progress matches 5 run playsound minecraft:entity.frog.hurt master @s
+execute if score ok hexhaven.blessbane.z_internal matches 1 if score @s hexhaven.blessbane.scavenger_progress matches 5 run scoreboard players add @s hexhaven.blessbane.scavenger_progress 1

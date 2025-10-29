@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "effects": {
+            "ars_nouveau:mana_regen": {
+                "duration": {
+                    "min": 72000
+                }
+            }
+        }
+    }
+}

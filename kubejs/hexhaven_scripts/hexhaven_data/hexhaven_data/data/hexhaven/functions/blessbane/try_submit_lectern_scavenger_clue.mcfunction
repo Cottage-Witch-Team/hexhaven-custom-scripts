@@ -1,0 +1,5 @@
+execute store success score ok hexhaven.blessbane.z_internal if score @s hexhaven.blessbane.scavenger_progress matches 9 run clear @s minecraft:enchanted_book{"hexhaven.blessbane.clue_item": 9}
+execute if score ok hexhaven.blessbane.z_internal matches 1 if score @s hexhaven.blessbane.scavenger_progress matches 9 run give @s domesticationinnovation:feather_on_a_stick{ "hexhaven.blessbane.clue_item": 10, display: { Name: '{"text": "Clue #10", "italic": false}', Lore: ['{"text": "Resting below the Little Things", "italic": false}'], } }
+execute if score ok hexhaven.blessbane.z_internal matches 1 if score @s hexhaven.blessbane.scavenger_progress matches 9 run title @s actionbar [{"text": "This library has no books "}, {"text": "or", "italic": true}, {"text": " frogs."}]
+execute if score ok hexhaven.blessbane.z_internal matches 1 if score @s hexhaven.blessbane.scavenger_progress matches 9 run playsound minecraft:entity.frog.hurt master @s
+execute if score ok hexhaven.blessbane.z_internal matches 1 if score @s hexhaven.blessbane.scavenger_progress matches 9 run scoreboard players add @s hexhaven.blessbane.scavenger_progress 1

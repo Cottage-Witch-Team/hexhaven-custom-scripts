@@ -1,0 +1,179 @@
+{
+	"criteria": {
+		"outerlands_south": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"gamemode": "survival"
+					},
+					"location": {
+						"dimension": "minecraft:overworld",
+						"position": {
+							"z": {
+								"min": 10240,
+								"max": 30000000
+							}
+						}
+					}
+				}
+			}
+		},
+		"outerlands_north": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"gamemode": "survival"
+					},
+					"location": {
+						"dimension": "minecraft:overworld",
+						"position": {
+							"z": {
+								"min": -30000000,
+								"max": -10240
+							}
+						}
+					}
+				}
+			}
+		},
+		"outerlands_east": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"gamemode": "survival"
+					},
+					"location": {
+						"dimension": "minecraft:overworld",
+						"position": {
+							"x": {
+								"min": 10240,
+								"max": 30000000
+							}
+						}
+					}
+				}
+			}
+		},
+		"outerlands_west": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"gamemode": "survival"
+					},
+					"location": {
+						"dimension": "minecraft:overworld",
+						"position": {
+							"x": {
+								"min": -30000000,
+								"max": -10240
+							}
+						}
+					}
+				}
+			}
+		},
+		"outer_outerlands_south": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"gamemode": "survival"
+					},
+					"location": {
+						"dimension": "minecraft:mining_dimension",
+						"position": {
+							"z": {
+								"min": 5000,
+								"max": 30000000
+							}
+						}
+					}
+				}
+			}
+		},
+		"outer_outerlands_north": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"gamemode": "survival"
+					},
+					"location": {
+						"dimension": "minecraft:mining_dimension",
+						"position": {
+							"z": {
+								"min": -30000000,
+								"max": -5000
+							}
+						}
+					}
+				}
+			}
+		},
+		"outer_outerlands_east": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"gamemode": "survival"
+					},
+					"location": {
+						"dimension": "minecraft:mining_dimension",
+						"position": {
+							"x": {
+								"min": 5000,
+								"max": 30000000
+							}
+						}
+					}
+				}
+			}
+		},
+		"outer_outerlands_west": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"gamemode": "survival"
+					},
+					"location": {
+						"dimension": "minecraft:mining_dimension",
+						"position": {
+							"x": {
+								"min": -30000000,
+								"max": -5000
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"outerlands_south",
+			"outerlands_north",
+			"outerlands_east",
+			"outerlands_west",
+			"outer_outerlands_south",
+			"outer_outerlands_north",
+			"outer_outerlands_east",
+			"outer_outerlands_west"
+		]
+	],
+	"rewards": {
+		"function": "hexhaven:z_internal/goto_outerlands"
+	}
+}
